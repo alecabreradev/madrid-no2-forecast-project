@@ -1,0 +1,16 @@
+# Raw data (download it from the Madrid open data portal, see README)
+data/
+
+# Python and notebook artefacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

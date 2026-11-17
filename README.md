@@ -2,6 +2,8 @@
 
 Will tomorrow be a high-pollution day? This project predicts, one day ahead, whether the daily mean **NO₂** at a Madrid traffic station (Escuelas Aguirre) will exceed **40 µg/m³**, using open air-quality data, weather and calendar information.
 
+> **Result:** the best model reaches a PR-AUC of 0.83 vs. 0.65 for the naive baseline, and caught 11 of the 14 high-NO₂ days in the 2026 test period.
+
 ![Daily NO₂ at Escuelas Aguirre](images/daily.png)
 
 ## Why it matters

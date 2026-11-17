@@ -69,4 +69,4 @@ Python · Pandas · NumPy · Scikit-learn · XGBoost · Matplotlib · Seaborn
 
 ## Author
 
-Alejandro Cabrera Mateo · [LinkedIn](https://linkedin.com/in/alejandro-cabrera-mateo)
+Alejandro Cabrera Mateo · [LinkedIn](https://linkedin.com/in/alejandro-cabrera-mateo-6761b030b)

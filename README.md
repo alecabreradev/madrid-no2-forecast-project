@@ -2,11 +2,15 @@
 
 Will tomorrow be a high-pollution day? This project predicts, one day ahead, whether the daily mean **NO₂** at a Madrid traffic station (Escuelas Aguirre) will exceed **40 µg/m³**, using open air-quality data, weather and calendar information.
 
-![Daily NO₂ at Escuelas Aguirre](images/no2_timeseries.png)
+![Daily NO₂ at Escuelas Aguirre](images/daily.png)
 
 ## Why it matters
 
 NO₂ comes mainly from road traffic and is the pollutant that most often puts Madrid above air-quality limits. Measures such as speed limits, parking restrictions or public warnings work best when they are announced the day before, so a reliable next-day prediction is useful.
+
+High-NO₂ days concentrate in the cold months and on weekdays:
+
+![NO₂ by month and day of the week](images/monthweek.png)
 
 ## Approach
 
@@ -33,9 +37,11 @@ Test period: January–October 2026 (14 high-NO₂ days).
 - Logistic Regression ranks high days best (PR-AUC 0.83 vs. 0.65). At its chosen threshold it caught 11 of the 14 high days.
 - The strongest signals are tomorrow's temperature, today's NO₂, solar radiation and wind: cold, still days trap pollution.
 
-![Precision-recall and ROC curves](images/pr_roc_curves.png)
+![Precision-recall and ROC curves](images/results.png)
 
-![Permutation importance](images/feature_importance.png)
+![Confusion matrix of the best model](images/confusionm.png)
+
+![Permutation importance](images/permutation.png)
 
 ## Limitations
 
